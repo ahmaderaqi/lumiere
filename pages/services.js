@@ -1,8 +1,8 @@
 
-import Services from "@/components/services/services";
 import Layout from "@/components/layout/layout";
+import Services from "@/components/services/Services";
 
-export default function service(){
+export default function Service(){
     return(
        
         <Layout>

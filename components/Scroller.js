@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 
 const Scroller = () => {
   const carouselItems = [
-    "https://www.cxtoday.com/wp-content/uploads/2022/03/ecommerce-3.png",
-    "https://dashwire.com/wp-content/uploads/2022/04/the-complete-guide-to-mobile-app-development-2021.png",
-    "https://www.analyticsinsight.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg",
+    "https://www.lumiereyvr.com/wp-content/uploads/2023/09/cropped-LumiereSocialImage.jpg",
+    "https://images.unsplash.com/photo-1564981797816-1043664bf78d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     
   ];
 

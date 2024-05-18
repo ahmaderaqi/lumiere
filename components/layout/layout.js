@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import Container from 'react-bootstrap/Container';
 
 const Layout = ({ children }) => {
   return (
     <div className="bg-gray-100">
-      <Header/>
-      <div className="pt-10">
+      <Header />
+      <Container className="pt-10">
         {children}
-      </div>
+      </Container>
       <Footer />
     </div>
   );
