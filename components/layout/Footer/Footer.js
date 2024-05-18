@@ -41,7 +41,7 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
-          <WhatsApp phoneNumber="1234567890" message="Hello! I'm interested in your services." />
+          <WhatsApp phoneNumber="+962780221890" message="Hello! I'm interested in your services." />
           <span className="text-sm text-gray-600">
             &copy; {new Date().getFullYear()}{" "}
             <Link href="/" className="hover:text-blue-600">
