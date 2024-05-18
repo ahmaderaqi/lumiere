@@ -43,7 +43,7 @@ export default function ContactForm() {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Us
           </h2>
-          <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+          <p className="mb-8 lg:mb-16 font-light text-center text-gray-300 dark:text-gray-400 sm:text-xl">
             We invite you to schedule a meeting to discuss how Lumière can best
             support your organization and its objectives. We are confident that
             our services can make a positive impact on your initiatives and the
@@ -55,14 +55,14 @@ export default function ContactForm() {
                 htmlFor="from_name"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Name
+                Email/ Phone Number
               </label>
               <input
                 type="text"
                 id="from_name"
                 name="from_name"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="Your name"
+                placeholder="Your Email / Phone Number"
                 required
               />
             </div>
@@ -71,33 +71,18 @@ export default function ContactForm() {
                 htmlFor="user_email"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Email
+                Name
               </label>
               <input
                 type="email"
                 id="user_email"
                 name="user_email"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="Email"
+                placeholder="Ahmad Iraqi"
                 required
               />
             </div>
-            <div>
-              <label
-                htmlFor="phone_number"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-              >
-                Phone Number
-              </label>
-              <input
-                type="tel"
-                id="phone_number"
-                name="phone_number"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                placeholder="Your phone number"
-                required
-              />
-            </div>
+            
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"

@@ -25,11 +25,11 @@ export default function Footer() {
             Your Trusted Translation Solutions Provider
           </p>
           <ul className="flex justify-center items-center mb-6 text-gray-600">
-            {/* <li>
-              <Link href="#" className="mr-4 hover:text-blue-600">
-                Our Partners
+            <li>
+              <Link href="https://www.linkedin.com/company/raise-a-ticket/?viewAsMember=true" className="mr-4 hover:text-blue-600">
+                Raise A Ticket
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link href="/faqs" className="mr-4 hover:text-blue-600">
                 FAQs
